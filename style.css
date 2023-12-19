@@ -4,9 +4,15 @@
 	margin: 30px;
 	margin-top: 10px;
 	margin-bottom: 10px;
-
-
 }
+
+.header a {
+    color: #bbbbbb;
+    text-decoration: none;
+    cursor: pointer;
+	padding-right: 5px;
+}
+
 .first img {
 	width: 500px;
 }
@@ -22,11 +28,16 @@
     margin-bottom: 0px;
 } 
 .header header {
+	display: flex;
+	justify-content: space-between;
 	background-color: #960018;
 	padding: 10px;
 	color: white;
 	margin: 30px;
 	margin-bottom: 10px;
+}
+.header div:last-child {
+    text-align: right; /* Устанавливаем выравнивание текста вправо для последнего дочернего элемента */
 }
 .third {
 	display: flex;
@@ -49,7 +60,7 @@
 }
 .third button {
 	background-color: #960018;
-	color: white;
+	color: #bbbbbb;
 	margin-left: 10px;
 	margin-bottom: 10px;
 	padding: 10px;
